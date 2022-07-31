@@ -4,11 +4,11 @@ function Main() {
     return (
         <>
         <div className='clouds'>
-            <div> <marquee scrollamount={"20"}><img src='https://www.pngarts.com/files/10/Vector-Cloud-Outline-PNG-Picture.png' height={"100px"} /></marquee></div>
-            <div> <marquee scrollamount={"30"}><img src='https://www.pngarts.com/files/10/Vector-Cloud-Outline-PNG-Picture.png' height={"150px"} /></marquee></div>
-            <div> <marquee scrollamount={"15"}><img src='https://www.pngarts.com/files/10/Vector-Cloud-Outline-PNG-Picture.png' height={"120px"} /></marquee></div>
-            <div> <marquee scrollamount={"35"}><img src='https://www.pngarts.com/files/10/Vector-Cloud-Outline-PNG-Picture.png' height={"150px"} /></marquee></div>
-            <div> <marquee scrollamount={"18"}><img src='https://www.pngarts.com/files/10/Vector-Cloud-Outline-PNG-Picture.png' height={"70px"} /></marquee></div>
+            <div> <marquee scrollamount={"15"} ><img src='https://user-images.githubusercontent.com/90475607/182042364-d2809c95-8a80-4768-9725-28c64fe5fca1.png' height={"100px"} /></marquee></div>
+            <div> <marquee scrollamount={"24"}><img src='https://user-images.githubusercontent.com/90475607/182042364-d2809c95-8a80-4768-9725-28c64fe5fca1.png' height={"150px"} /></marquee></div>
+            <div> <marquee scrollamount={"10"}><img src='https://user-images.githubusercontent.com/90475607/182042364-d2809c95-8a80-4768-9725-28c64fe5fca1.png' height={"120px"} /></marquee></div>
+            <div> <marquee scrollamount={"18"}><img src='https://user-images.githubusercontent.com/90475607/182042364-d2809c95-8a80-4768-9725-28c64fe5fca1.png' height={"150px"} /></marquee></div>
+            <div> <marquee scrollamount={"12"}><img src='https://user-images.githubusercontent.com/90475607/182042364-d2809c95-8a80-4768-9725-28c64fe5fca1.png' height={"70px"} /></marquee></div>
         </div>
         <div className="outer-box">
             <div className="wheel1">
@@ -65,6 +65,10 @@ function Main() {
                 <div></div>
                 <div></div>
             </div>
+        </div>
+        <div className='author'>Developed by Tazammul with 	&#128155;
+        <br />
+        <a target="_blank" href='https://github.com/MohdTazammul/bicycle-animation-in-css'>Github</a>
         </div>
         </>
     )
